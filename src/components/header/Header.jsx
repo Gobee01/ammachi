@@ -13,19 +13,17 @@ const Header = () => {
 
         <article className={styled["header-intro"]}>
           <h1>
-            <span> good</span> food good <span>life</span>
+            <span> AMMACHI</span> Unavagam 
           </h1>
           <p className="paragraph">
-            If you are ever in the mood for some good food, The Good Food is the
+            If you are ever in the mood for some organic vegetarian food, Ammachi is the
             place for you. We offer a variety mouth-watering meals that are sure
-            to please even the pickiest of eaters. With our amazing food and
-            welcoming staff, we will make sure that you have a great experience
-            every time.
+            to please even the pickiest of eaters. Come on! Lets checkout the available foods and place order NOW!
           </p>
 
           <Button>
             <Link to="#menu" smooth>
-              see menu
+              Order Foods
             </Link>
           </Button>
         </article>

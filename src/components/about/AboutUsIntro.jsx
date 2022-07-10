@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "./AboutUsIntro.module.css";
-import squarePlate from "../../images/square-plate.png";
+import squarePlate from "../../images/plate.png";
 import Heading from "../header/Heading";
 import Wrapper from "../helpers/Wrapper";
 
@@ -12,7 +12,7 @@ const AboutUsIntro = () => {
           <figure>
             <img
               src={squarePlate}
-              alt="Black plate with rice and shrimp and vegetables"
+              alt="Black plate"
             />
           </figure>
           <article>
@@ -25,11 +25,8 @@ const AboutUsIntro = () => {
               className="heading-md"
             />
             <p className="paragraph">
-              The Good Food was started by a group of friends who were
-              passionate about food and wanted to share their love of good eats
-              with the world. We believe that everyone deserves access to
-              delicious meals, so we opened up restaurant to cook and serve up
-              just that.
+            Ammachi Unavagam, a government-run chain of low-cost vegetarian organic eateries in northern Sri Lanka, 
+            gives women a platform for financial and social independence.
             </p>
 
             <p className="paragraph">

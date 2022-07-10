@@ -24,8 +24,7 @@ const Contact = () => {
             <article>
               <Heading text={text} className="heading-md" />
               <p className="paragraph">
-                If you're looking for a delicious meal and a good time, you'll
-                want to come to the good food restaurant. We would love to hear
+                If you're looking for a vegetarian delicious meal, you can contact us via email. We would love to hear
                 from you and answer any questions you may have.
               </p>
             </article>

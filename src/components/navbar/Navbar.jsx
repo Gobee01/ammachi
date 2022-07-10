@@ -41,7 +41,7 @@ const Navbar = () => {
 
   return (
     <nav className={styled.navbar}>
-      <p>the good food</p>
+      <p>AMMACHI</p>
 
       <div onClick={handleMenu} className={styled.icon}>
         <GiHamburgerMenu size="25px" style={{ color: "var(--white)" }} />
@@ -57,12 +57,12 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="#about" smooth>
-              About
+              About Us
             </Link>
           </li>
           <li>
             <Link to="#menu" smooth>
-              Menu
+              Order
             </Link>
           </li>
           <li>

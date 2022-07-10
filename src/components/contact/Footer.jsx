@@ -11,15 +11,7 @@ const Footer = () => {
     <footer className={styled.footer}>
       <Wrapper>
         <section className={styled["footer-content"]}>
-          <article>
-            <p className={styled.logo}>the good food</p>
-            <p className="paragraph">
-              If you want an amazing dining experience, you need to come to The
-              Good Food Restaurant. We have it all – great food, wonderful
-              service, and a comfortable atmosphere.
-            </p>
-          </article>
-
+          
           <div>
             <h2>Quick Links</h2>
             <ul>
@@ -30,12 +22,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="#about" smooth>
-                  About
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link to="#menu" smooth>
-                  Menu
+                  Order
                 </Link>
               </li>
               <li>
@@ -50,13 +42,13 @@ const Footer = () => {
             <h2>Find us </h2>
             <article className={styled.details}>
               <p>
-                Call <span>425-251-4502</span>
+                Call <span>420-420-420</span>
               </p>
               <p>
-                Address <span>28 Hope Road, Kingston</span>
+                Address <span>Ammachi, Kilinochi Premises, University of Jaffna.</span>
               </p>
               <p>
-                Mail Us <span>tgf@gmail.com</span>
+                Mail Us <span>ammachi@gmail.com</span>
               </p>
             </article>
 

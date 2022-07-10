@@ -22,7 +22,7 @@ const AboutUsOffers = () => {
 
   const offer2 = (
     <>
-      <span>declicous</span> food
+      <span>delicious</span> food
     </>
   );
 
@@ -41,13 +41,13 @@ const AboutUsOffers = () => {
   const space = { padding: "1rem 0" };
 
   const paragraph1 =
-    "We support the local economy to help to create jobs in the community. We pride ourselves in supporting businesses and farmers in the area. We are always on the lookout for new and better ways to help our community. Our locally sourced food is always fresh, tasty and flavourful. ";
+    "We support the local economy to help to create jobs in the community. We pride ourselves in supporting women and farmers in the area. We are always on the lookout for new and better ways to help our community. Our locally sourced food is always fresh, tasty and flavourful. ";
   const paragraph2 =
-    "We have a passion for serving quality dishes that excite the taste buds. Using the freshest ingredients we take the time to prepare each dish with care. Our attention to detail ensures that every meal is full of flavor and perfectly cooked.";
+    "We have a passion for serving delicious dishes that excite the taste buds. Using the fresh organic ingredients we take the time to prepare each dish with care. Our attention to detail ensures that every meal is full of flavor and perfectly cooked.";
   const paragraph3 =
     "We are known for offering food that is always fresh, using the freshest locally sourced ingredients everytime. We ensure our customers are always getting the best possible product.";
   const paragraph4 =
-    "Our staff is attentive and always ready to help. Our restaurant is always clean and organized, making it a pleasant place to eat. Our food is delicious and reasonably priced, making it a great value for customers.";
+    "Our staff is always attentive for orders and on-spot prepare. Our restaurant is always clean and organized, making it a pleasant place to eat. Our food is delicious and cost efficient, making it a great value for customers.";
 
   return (
     <section className={styled["about-offers"]}>
@@ -55,7 +55,7 @@ const AboutUsOffers = () => {
         <article>
           <div className={styled["offers-heading"]}>
             <p className="paragraph">
-              We offer a wide variety of food items for customers to choose
+              We offer a wide variety of organic food items for customers to choose
               from. There is something for everyone here, whether you are
               looking for a light meal or a hearty meal.
             </p>

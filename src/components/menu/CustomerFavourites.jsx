@@ -8,7 +8,7 @@ import { favorites } from "./favourites";
 const CustomerFavourites = () => {
   const text = (
     <>
-      Customer <span>Favourites</span>
+      Available <span>Foods</span>
     </>
   );
 
@@ -23,7 +23,7 @@ const CustomerFavourites = () => {
           <p className={styled.name}> {item.name}</p>
 
           <div>
-            <p className={styled.price}>$ {item.price}</p>
+            <p className={styled.price}>Rs {item.price}</p>
             <Button>order</Button>
           </div>
         </div>
@@ -36,9 +36,7 @@ const CustomerFavourites = () => {
         <article className={styled.intro}>
           <Heading text={text} className="heading-md" />
           <p className="paragraph">
-            Some of our most popular dishes include the Barbecue Pizza, the
-            Cream Cheese Pasta, and the Double Deluxe Burger. Our guests can't
-            get enough of these classic mouth-watering dishes!
+            Here are the meals currently available in Ammachi. Order some and enjoy the meals.
           </p>
         </article>
 
